@@ -9,13 +9,13 @@ module.exports = [{
       name: 'Super Chef',
       location: '566 Robson Street',
       stars: [{
-        createdAt: 'Timestamp'
+        createdAt: 'Sept 24th 2015'
       },
       {
-        createdAt: 'Timestamp'
+        createdAt: 'Sept 25th 2015'
       },
       {
-        createdAt: 'Timestamp'
+        createdAt: 'Sept 26th 2015'
       }],
       rewards: [{
         name: 'Teriyaki Chicken',
@@ -47,22 +47,22 @@ module.exports = [{
       name: 'Jinya Ramen',
       location: '1337 Robson Street',
       stars: [{
-        createdAt: 'Timestamp'
+        createdAt: 'Oct 1st 2015'
       },
       {
-        createdAt: 'Timestamp'
+        createdAt: 'Oct 2nd 2015'
       },
       {
-        createdAt: 'Timestamp'
+        createdAt: 'Oct 4th 2015'
       },
       {
-        createdAt: 'Timestamp'
+        createdAt: 'Oct 8th 2015'
       },
       {
-        createdAt: 'Timestamp'
+        createdAt: 'Oct 12th 2015'
       },
       {
-        createdAt: 'Timestamp'
+        createdAt: 'Oct 14th 2015'
       }
       ],
       rewards: [{
