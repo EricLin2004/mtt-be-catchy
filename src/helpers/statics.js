@@ -8,6 +8,7 @@ module.exports = [{
       merchantIds: ['1a2b3c4d5e6f', '2abasd1241', '321asdf121'],
       name: 'Super Chef',
       location: '566 Robson Street',
+      starsRequired: 5,
       stars: [{
         createdAt: 'Sept 24th 2015'
       },
@@ -46,6 +47,7 @@ module.exports = [{
       merchantIds: ['1231asdf121', '2asd121d1241', 'fasf12asd'],
       name: 'Jinya Ramen',
       location: '1337 Robson Street',
+      starsRequired: 10,
       stars: [{
         createdAt: 'Oct 1st 2015'
       },

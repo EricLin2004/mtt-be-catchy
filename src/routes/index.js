@@ -16,5 +16,6 @@ module.exports = function(app) {
   var User = require('./users');
   app.get('/v1/users/:id', User.get);
 
-  var Visa = require('../models/visa');
+  var Transaction = require('./transactions');
+  app.post('/v1/users/:id/pay/:merchant_id', Transaction.submit);
 }
