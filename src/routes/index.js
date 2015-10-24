@@ -1,7 +1,7 @@
 var apiTokens = require('../helpers/config').apiTokens;
 
 module.exports = function(app) {
-  app.use('/v1/*', function() {
+  app.use('/v1/*', function(req, res, next) {
     var apiToken = req.headers['x-api-token'];
 
     if (apiTokens.indexOf(apiToken) > -1) {
@@ -14,7 +14,7 @@ module.exports = function(app) {
   });
 
   var User = require('./users');
-  // app.get('/v1/user/:id', User.get);
+  app.get('/v1/users/:id', User.get);
 
   var Visa = require('../models/visa');
 }
