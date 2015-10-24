@@ -14,7 +14,7 @@ module.exports = function(app) {
   });
 
   var User = require('./users');
-  app.get('/v1/user/:id', User.get);
+  // app.get('/v1/user/:id', User.get);
 
   var Visa = require('../models/visa');
 }
