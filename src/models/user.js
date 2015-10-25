@@ -8,12 +8,12 @@ module.exports = function() {
           return console.error('error fetching client from pool', err);
         }
 
-        var sqlQuery = 'SELECT * FROM merchants WHERE id = $1';
+        var sqlQuery = 'SELECT * FROM users WHERE id = $1';
         client.query(sqlQuery, [id], function(qErr, qResult) {
           done();
 
           if (qErr) {
-            cb('No merchant with id: ' + id, null);
+            cb('No user with id: ' + id, null);
           } else {
             cb(null, qResult.rows);
           }

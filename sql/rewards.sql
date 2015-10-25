@@ -6,7 +6,8 @@ CREATE TABLE rewards (
   name TEXT,
   description TEXT,
   image TEXT,
-  price NUMERIC
+  price NUMERIC,
 
   FOREIGN KEY (merchant_id) REFERENCES merchants (id)
 );
+
