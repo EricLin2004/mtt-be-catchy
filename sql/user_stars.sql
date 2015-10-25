@@ -10,3 +10,4 @@ CREATE TABLE user_stars (
   FOREIGN KEY (user_id) REFERENCES users (id),
   FOREIGN KEY (merchant_id) REFERENCES merchants (id)
 );
+
