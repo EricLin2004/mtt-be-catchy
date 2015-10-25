@@ -28,6 +28,11 @@ module.exports = {
           });
         });
 
+        user.merchants.sort(function(a,b) {
+          var orderOfMerc = ['Super Chef', 'Papa John\'s', 'American Eagle', 'Newegg', 'Jinya Ramen Bar'];
+          return orderOfMerc.indexOf(a.name) - orderOfMerc.indexOf(b.name);
+        });
+
         if (qErr) {
           cb('No user with id: ' + id, null);
         } else {
