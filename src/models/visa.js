@@ -3,7 +3,7 @@ var User = require('./user');
 var Merchant = require('./merchant');
 
 module.exports = {
-  payMerchant: function(userId, merchantId, cb) {
+  payMerchant: function(userId, merchantId, amount, cb) {
     Merchant.get(merchantId, function(err, merchant) {
       User.get(userId, function(err, user) {
         var options = {
@@ -16,7 +16,7 @@ module.exports = {
 
         var req = {
           AuthCaptureRequest: {
-            amount: "100.00",
+            amount: amount,
             currency: "USD",
             referenceId: "123",
             payment: {
