@@ -9,7 +9,7 @@ module.exports = {
       }
 
       var sqlQuery = 'SELECT u.*, (SELECT to_json(array_agg(merc)) as merchants FROM \
-        (SELECT m.*, to_json(array_agg(DISTINCT r.*)) as rewards, to_json(array_agg(us.*)) as stars \
+        (SELECT m.*, to_json(array_agg(DISTINCT r.*)) as rewards, to_json(array_agg(DISTINCT us.*)) as stars \
         FROM merchants m \
         JOIN user_stars us ON us.merchant_id = m.id AND us.user_id = $1 \
         JOIN rewards r ON r.merchant_id = m.id \

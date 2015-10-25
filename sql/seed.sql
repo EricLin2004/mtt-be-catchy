@@ -1,6 +1,6 @@
 INSERT INTO users (name) VALUES ('Flynn Howling');
 
-INSERT INTO merchants (name, location, stars_required, api_key, shared_secret) VALUES ('Panda Express', '3825 South Maryland Pky', 5, 'O69MZUH2UKCWTGLPI9MQ21b4GoCdPB3k4EV3sK3RD_d8HimSs', '{rwKMNhP4Sh1R#IEwc9iy34QI+udq}ti2HdTc@tH');
+INSERT INTO merchants (name, location, stars_required, api_key, shared_secret) VALUES ('Super Chef', '280 Robson St, Vancouver', 5, 'O69MZUH2UKCWTGLPI9MQ21b4GoCdPB3k4EV3sK3RD_d8HimSs', '{rwKMNhP4Sh1R#IEwc9iy34QI+udq}ti2HdTc@tH');
 INSERT INTO merchants (name, location, stars_required, api_key, shared_secret) VALUES ('JINYA Ramen Bar', '4860 W Flamingo Rd', 10, '2389ESJ6HRFM5D7I5COG21PCIEnAXXNQe5Fnz9CvZEKC45YhQ', 'I4XoNhIvHjWs$IKJU#sOH#tkBb/MK#DIBT5NiLVL');
 INSERT INTO merchants (name, location, stars_required, api_key, shared_secret) VALUES ('Newegg', 'http://www.newegg.com/', 5, '2JOHIUQVS82EDNKW8WT4210rdatIPinDOo5hTUPBuexSFbe-c', 'D-H1zwwM2dNWGRq}Q4P03Hl#95ThRmYF{0t4X3@4');
 INSERT INTO merchants (name, location, stars_required, api_key, shared_secret) VALUES ('Papa Johns', '3460 E Sunset RD; Suite U', 10, '028QDJE0R9IRDHTLNLHK21S-YxpppBZ9seQp5ZlBJrDWdf7aQ', 'uFu@#t9GRGgLp$0JpsD+#3RWtD3x@Mom8dj2oBy$');
@@ -49,3 +49,6 @@ INSERT INTO merchants (name, location, stars_required, api_key, shared_secret) V
 -- INSERT INTO user_stars (user_id, merchant_id, created_at) VALUES ('de89633d-028d-48e0-9535-10b08ab9f2e7', '8eeb53fd-e82b-42f5-a640-c61859043311', 'Jan 1st 2015');
 -- INSERT INTO user_stars (user_id, merchant_id, created_at) VALUES ('de89633d-028d-48e0-9535-10b08ab9f2e7', '8eeb53fd-e82b-42f5-a640-c61859043311', 'Jan 2nd 2015');
 -- INSERT INTO user_stars (user_id, merchant_id, created_at) VALUES ('de89633d-028d-48e0-9535-10b08ab9f2e7', '8eeb53fd-e82b-42f5-a640-c61859043311', 'Jan 14th 2015');
+-- INSERT INTO user_stars (user_id, merchant_id, created_at) VALUES ('de89633d-028d-48e0-9535-10b08ab9f2e7', '8eeb53fd-e82b-42f5-a640-c61859043311', 'Feb 24th 2015');
+-- INSERT INTO user_stars (user_id, merchant_id, created_at) VALUES ('de89633d-028d-48e0-9535-10b08ab9f2e7', '8eeb53fd-e82b-42f5-a640-c61859043311', 'March 11th 2015');
+-- INSERT INTO user_stars (user_id, merchant_id, created_at) VALUES ('de89633d-028d-48e0-9535-10b08ab9f2e7', '8eeb53fd-e82b-42f5-a640-c61859043311', 'Aug 9th 2015');
